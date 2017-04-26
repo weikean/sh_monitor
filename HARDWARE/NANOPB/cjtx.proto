@@ -1,0 +1,25 @@
+message state_request 
+{
+  optional string id = 1;
+  optional int32 longitude = 2; 
+  optional int32 latitude = 3; 
+  optional int32 pressure1 = 4;
+  optional int32 pressure2 = 5;
+  optional int32 pressure3 = 6;
+  optional int32 temperature1 = 7;
+  optional int32 temperature2 = 8;
+  optional int32 temperature3 = 9;
+}
+
+message extinfo
+{
+  optional uint32 set_interval = 1;
+  optional bool upload_info = 2;
+  optional bool need_upgrade = 3;
+}
+
+message state_response
+{
+  optional uint32 errno = 1;
+  optional extinfo extinfo = 2; 
+}

@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\HARDWARE\FLASH -I..\HARDWARE\GSM -I..\HARDWARE\lcd_rl -I..\HARDWARE\MAX6675 -I..\HARDWARE\pressure -I..\HARDWARE\TIMER -I..\HARDWARE\USART -I..\HARDWARE\user_GPRS -I..\HARDWARE\SysTick -I..\HARDWARE\radix -I..\HARDWARE\NANOPB -I..\HARDWARE\SPIFS -I..\HARDWARE\SPI_Flash -I..\HARDWARE\MAX31855 -I..\HARDWARE\shh -I..\HARDWARE\Filter -I..\HARDWARE\GPS --C99 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "gps.o" --omf_browse "gps.crf" --depend "gps.d" "..\HARDWARE\GPS\gps.c"

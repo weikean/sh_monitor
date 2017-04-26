@@ -1,0 +1,16 @@
+malloc.o: ..\MALLOC\malloc.c
+malloc.o: ..\MALLOC\malloc.h
+malloc.o: ..\SYSTEM\sys\sys.h
+malloc.o: ..\USER\stm32f10x.h
+malloc.o: ..\CORE\core_cm3.h
+malloc.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+malloc.o: ..\USER\system_stm32f10x.h
+malloc.o: ..\USER\stm32f10x_conf.h
+malloc.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+malloc.o: ..\USER\stm32f10x.h
+malloc.o: ..\STM32F10x_FWLib\inc\stm32f10x_flash.h
+malloc.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+malloc.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+malloc.o: ..\STM32F10x_FWLib\inc\stm32f10x_spi.h
+malloc.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+malloc.o: ..\STM32F10x_FWLib\inc\misc.h

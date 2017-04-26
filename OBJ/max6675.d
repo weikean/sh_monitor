@@ -1,0 +1,17 @@
+..\OBJ\max6675.o: ..\HARDWARE\MAX6675\max6675.c
+..\OBJ\max6675.o: ..\USER\stm32f10x.h
+..\OBJ\max6675.o: ..\CORE\core_cm3.h
+..\OBJ\max6675.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\max6675.o: ..\USER\system_stm32f10x.h
+..\OBJ\max6675.o: ..\USER\stm32f10x_conf.h
+..\OBJ\max6675.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+..\OBJ\max6675.o: ..\USER\stm32f10x.h
+..\OBJ\max6675.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\OBJ\max6675.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\OBJ\max6675.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\OBJ\max6675.o: ..\STM32F10x_FWLib\inc\misc.h
+..\OBJ\max6675.o: ..\STM32F10x_FWLib\inc\stm32f10x_spi.h
+..\OBJ\max6675.o: ..\HARDWARE\MAX6675\max6675.h
+..\OBJ\max6675.o: ..\HARDWARE\USART\usart.h
+..\OBJ\max6675.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\OBJ\max6675.o: ..\SYSTEM\sys\sys.h

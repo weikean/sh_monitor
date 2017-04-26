@@ -1,0 +1,76 @@
+*** Creating Trace Output File '..\OBJ\UCOSII-sh-1.0.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\obj\main.o"'
+### List of Objects: adding '"..\obj\system_stm32f10x.o"'
+### List of Objects: adding '"..\obj\stm32f10x_it.o"'
+### List of Objects: adding '"..\obj\led.o"'
+### List of Objects: adding '"..\obj\flash.o"'
+### List of Objects: adding '"..\obj\gsm.o"'
+### List of Objects: adding '"..\obj\pressure.o"'
+### List of Objects: adding '"..\obj\radix.o"'
+### List of Objects: adding '"..\obj\systick.o"'
+### List of Objects: adding '"..\obj\timer.o"'
+### List of Objects: adding '"..\obj\usart.o"'
+### List of Objects: adding '"..\obj\gprs_jiankong.o"'
+### List of Objects: adding '"..\obj\gprs_sh.o"'
+### List of Objects: adding '"..\obj\spi_flash.o"'
+### List of Objects: adding '"..\obj\max31855.o"'
+### List of Objects: adding '"..\obj\shh.o"'
+### List of Objects: adding '"..\obj\filter.o"'
+### List of Objects: adding '"..\obj\hexstring.o"'
+### List of Objects: adding '"..\obj\proto.o"'
+### List of Objects: adding '"..\obj\lcd_rl.o"'
+### List of Objects: adding '"..\obj\cjtx.pb.o"'
+### List of Objects: adding '"..\obj\pb_common.o"'
+### List of Objects: adding '"..\obj\pb_decode.o"'
+### List of Objects: adding '"..\obj\pb_encode.o"'
+### List of Objects: adding '"..\obj\spiffs_cache.o"'
+### List of Objects: adding '"..\obj\spiffs_check.o"'
+### List of Objects: adding '"..\obj\spiffs_gc.o"'
+### List of Objects: adding '"..\obj\spiffs_hydrogen.o"'
+### List of Objects: adding '"..\obj\spiffs_nucleus.o"'
+### List of Objects: adding '"..\obj\delay.o"'
+### List of Objects: adding '"..\obj\sys.o"'
+### List of Objects: adding '"..\obj\core_cm3.o"'
+### List of Objects: adding '"..\obj\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\obj\misc.o"'
+### List of Objects: adding '"..\obj\stm32f10x_fsmc.o"'
+### List of Objects: adding '"..\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\obj\stm32f10x_usart.o"'
+### List of Objects: adding '"..\obj\stm32f10x_exti.o"'
+### List of Objects: adding '"..\obj\stm32f10x_tim.o"'
+### List of Objects: adding '"..\obj\stm32f10x_flash.o"'
+### List of Objects: adding '"..\obj\stm32f10x_spi.o"'
+### List of Objects: adding '"..\obj\stm32f10x_adc.o"'
+### List of Objects: adding '"..\obj\stm32f10x_dma.o"'
+### List of Objects: adding '"..\obj\os_core.o"'
+### List of Objects: adding '"..\obj\os_flag.o"'
+### List of Objects: adding '"..\obj\os_mbox.o"'
+### List of Objects: adding '"..\obj\os_mem.o"'
+### List of Objects: adding '"..\obj\os_mutex.o"'
+### List of Objects: adding '"..\obj\os_q.o"'
+### List of Objects: adding '"..\obj\os_sem.o"'
+### List of Objects: adding '"..\obj\os_task.o"'
+### List of Objects: adding '"..\obj\os_time.o"'
+### List of Objects: adding '"..\obj\os_tmr.o"'
+### List of Objects: adding '"..\obj\os_cpu_a.o"'
+### List of Objects: adding '"..\obj\os_cpu_c.o"'
+### List of Objects: adding '"..\obj\os_dbg.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\obj\main.o" "..\obj\system_stm32f10x.o" "..\obj\stm32f10x_it.o" "..\obj\led.o" "..\obj\flash.o" "..\obj\gsm.o" "..\obj\pressure.o" "..\obj\radix.o" "..\obj\systick.o" "..\obj\timer.o" "..\obj\usart.o" "..\obj\gprs_jiankong.o" "..\obj\gprs_sh.o" "..\obj\spi_flash.o" "..\obj\max31855.o" "..\obj\shh.o" "..\obj\filter.o" "..\obj\hexstring.o" "..\obj\proto.o" "..\obj\lcd_rl.o" "..\obj\cjtx.pb.o" "..\obj\pb_common.o" "..\obj\pb_decode.o" "..\obj\pb_encode.o" "..\obj\spiffs_cache.o" "..\obj\spiffs_check.o" "..\obj\spiffs_gc.o" "..\obj\spiffs_hydrogen.o" "..\obj\spiffs_nucleus.o" "..\obj\delay.o" "..\obj\sys.o" "..\obj\core_cm3.o" "..\obj\startup_stm32f10x_hd.o" "..\obj\misc.o" "..\obj\stm32f10x_fsmc.o" "..\obj\stm32f10x_gpio.o" "..\obj\stm32f10x_rcc.o" "..\obj\stm32f10x_usart.o" "..\obj\stm32f10x_exti.o" "..\obj\stm32f10x_tim.o" "..\obj\stm32f10x_flash.o" "..\obj\stm32f10x_spi.o" "..\obj\stm32f10x_adc.o" "..\obj\stm32f10x_dma.o" "..\obj\os_core.o" "..\obj\os_flag.o" "..\obj\os_mbox.o" "..\obj\os_mem.o" "..\obj\os_mutex.o" "..\obj\os_q.o" "..\obj\os_sem.o" "..\obj\os_task.o" "..\obj\os_time.o" "..\obj\os_tmr.o" "..\obj\os_cpu_a.o" "..\obj\os_cpu_c.o" "..\obj\os_dbg.o" 
+--strict --scatter "..\OBJ\UCOSII-sh-1.0.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\UCOSII-sh-1.map" -o ..\OBJ\UCOSII-sh-1.0.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\OBJ\UCOSII-sh-1.0.axf'
+### ADS-LD Command File: '..\OBJ\UCOSII-sh-1.0.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\OBJ\UCOSII-sh-1.0.lnp', Handle=0x000014F8
+### Writing '.lnp' file
+### ADS-LD Command file '..\OBJ\UCOSII-sh-1.0.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

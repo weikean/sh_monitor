@@ -1,0 +1,14 @@
+..\OBJ\radix.o: ..\HARDWARE\radix\radix.c
+..\OBJ\radix.o: ..\HARDWARE\radix\radix.h
+..\OBJ\radix.o: ..\USER\stm32f10x.h
+..\OBJ\radix.o: ..\CORE\core_cm3.h
+..\OBJ\radix.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\radix.o: ..\USER\system_stm32f10x.h
+..\OBJ\radix.o: ..\USER\stm32f10x_conf.h
+..\OBJ\radix.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+..\OBJ\radix.o: ..\USER\stm32f10x.h
+..\OBJ\radix.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\OBJ\radix.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\OBJ\radix.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\OBJ\radix.o: ..\STM32F10x_FWLib\inc\misc.h
+..\OBJ\radix.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
